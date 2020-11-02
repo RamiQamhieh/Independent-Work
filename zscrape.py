@@ -107,7 +107,7 @@ def scrape(driver, url):
 if __name__ == '__main__':
 	url = "https://www.zillow.com/blaine-mn/luxury-homes/?searchQueryState={%22pagination%22:{},%22usersSearchTerm%22:%22Blaine,%20MN%22,%22mapBounds%22:{%22west%22:-93.29565952978515,%22east%22:-93.11369847021484,%22south%22:45.10022942668798,%22north%22:45.2302181267963},%22regionSelection%22:[{%22regionId%22:10428,%22regionType%22:6}],%22isMapVisible%22:true,%22mapZoom%22:12,%22filterState%22:{%22sortSelection%22:{%22value%22:%22priced%22},%22isPreMarketForeclosure%22:{%22value%22:false},%22isPreMarketPreForeclosure%22:{%22value%22:false}},%22isListVisible%22:true}"
 	#get_query(1, "917c25dfd6X1-CR1nk482x6hl3zy_11m3tt", 50000, 350000)
-	#scrape(get_driver("C:/Users/Jesse/Downloads/chromedriver_win32/chromedriver.exe"), url) ORIGINAL
+	#scrape(get_driver("C:/Users/rami/Downloads/chromedriver_win32/chromedriver.exe"), url) ORIGINAL
 	scrape(get_driver("/users/ramiqamhieh/Desktop/Programs/Program Apps/chromedriver"), url)
 
 
